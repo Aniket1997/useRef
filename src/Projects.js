@@ -3,9 +3,9 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.css';
 import {IoGrid} from "react-icons/io5"
 import { CiViewTable } from "react-icons/ci";
-import { Table } from 'react-bootstrap';
+import {  Table } from 'react-bootstrap';
 import { Pagination } from 'react-bootstrap';
-
+import Form from './Form';
 function Projects() {
     const [photos, setPhotos] = useState([]);
 const [filteredPhotos, setFilteredPhotos] = useState([]);
@@ -62,6 +62,7 @@ for (let i = 1; i <= totalPages; i++) {
   
   return (
     <>
+    <Form/>
     <nav className="navbar navbar-light bg-light">
         <div className="container-fluid" style={{ justifyContent: "center" }}>
           <form className="d-flex" onSubmit={handleSearch}>
