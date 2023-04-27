@@ -1,0 +1,106 @@
+body {
+    background-image: url('C:\Users\dell\Pictures\Screenshots\Frame.png');
+    background-size: cover;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-size: cover;
+  }
+  .errorMassage
+  {
+    
+        top: 66px;
+        left: 475px;
+        position: relative;
+        display: block;
+        padding: 7px 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+        width: 400px;
+        height: 50px;
+        border-left: 5px solid;
+      
+  }
+  .emailLabel
+  {
+    color: white;
+  }
+  .passwordLabel
+  {
+    color:white;
+  }
+  
+  .card {
+    height: 588px;
+    width: 497px;
+    padding: 20px;
+    border: 1px solid #0097EC;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px rgba(255, 154, 255, 0.2);
+  }
+  .buttonGroup
+  {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  }
+  
+  .card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .card button {
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #5ec7f5, #25aae1);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .card p {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .card p a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .card b {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
